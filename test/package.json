@@ -1,0 +1,15 @@
+{
+  "name": "ble-serial-server-test",
+  "version": "0.0.1",
+  "description": "test for ble serial server",
+  "main": "ble_test.js",
+  "repository": "https://github.com/roshub/ble-serial-server.git",
+  "author": "Alan Meekins",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./ble_test.js"
+  },
+  "dependencies": {
+    "noble": "^1.9.1"
+  }
+}
