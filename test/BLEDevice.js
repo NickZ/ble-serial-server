@@ -1,7 +1,7 @@
 'use strict';
 
 const EventEmitter = require('events')
-const noble = require('noble')
+const noble = require('@abandonware/noble')
 
 class BLEDevice extends EventEmitter {
   constructor(options){

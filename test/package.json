@@ -10,6 +10,6 @@
     "start": "node ./ble_test.js"
   },
   "dependencies": {
-    "noble": "^1.9.1"
+    "@abandonware/noble": "^1.9.2-1"
   }
 }
