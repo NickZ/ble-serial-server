@@ -79,7 +79,7 @@ class BLEDevice extends EventEmitter {
   handleDeviceDiscovery(device){
     console.log('device discovered: ' + device.address)
     console.log(device.advertisment)
-    if(device.advertisement && device.advertisement.localName && device.advertisement.localName.includes('RosHub')){
+    if(device.advertisement && device.advertisement.localName && device.advertisement.localName.includes('RosHub-celst0')){
       console.log('found roshub device: ' + device.address)
       noble.stopScanning();
 
